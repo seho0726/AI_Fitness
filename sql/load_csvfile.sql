@@ -1,0 +1,6 @@
+LOAD DATA LOCAL INFILE 'C:\Users\OH\Desktop\2025_1\Ai_healthcare\SQL\user_routines.csv'
+INTO TABLE user_routines
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"' 
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
