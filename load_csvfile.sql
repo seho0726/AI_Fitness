@@ -1,4 +1,4 @@
-LOAD DATA LOCAL INFILE 'C:\Users\OH\Desktop\2025_1\Ai_healthcare\SQL\user_routines.csv'
+LOAD DATA LOCAL INFILE 'user_routines.csv'
 INTO TABLE user_routines
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"' 
